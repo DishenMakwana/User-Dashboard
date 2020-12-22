@@ -1,0 +1,1 @@
+web: gunicorn DM_dashboard.wsgi --log-file -
