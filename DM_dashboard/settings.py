@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '3*xisb#-or&hn8mc&=-99m*q(d)gss
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['dm-dashboard.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['dashboard-dm.herokuapp.com', '127.0.0.1']
 
 # Application definition
 
